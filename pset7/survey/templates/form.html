@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Form</h1>
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <div class="row">
+        <div class="col">
+            <form action="/form" method="post" onsubmit="return valid();">
+
+                <div class="form-group ">
+                    <input type="text" name="name" placeholder="Name" class="form-control col-sm-2" id="name">
+                    <div class="invalid-feedback" id="name-error">Name cannot be empty</div>
+                </div>
+                <div class="form-group">
+                    <select name="house" class="form-control form-control-sm width" id="houses">
+                        <option disabled selected>House</option>
+                        <option value="Gryffindor">Gryffindor</option>
+                        <option value="Slytherin">Slytherin</option>
+                        <option value="Ravenclaw">Ravenclaw</option>
+                        <option value="Hufflepuff">Hufflepuff</option>
+                    </select>
+                    <div class="invalid-feedback" id="select-error">House has to be chosen</div>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="player" value="Beater" id="beater">
+                    <label for="beater">Beater</label><br>
+                    <input type="radio" name="player" value="Chaser" id="chaser">
+                    <label for="chaser">Chaser</label><br>
+                    <input type="radio" name="player" value="Seeker" id="seeker">
+                    <label for="seeker">Seeker</label><br>
+                    <input type="radio" name="player" value="Keeper" id="keeper">
+                    <label for="keeper">Keeper</label>
+                    <div class="invalid-feedback" id="radio-error">Position has to be chosen</div>
+                </div>
+                <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        function valid() {
+            let name = document.getElementById('name');
+            let select = document.getElementById('houses');
+            let player = document.getElementsByName('player');
+
+            let errorName = document.getElementById('name-error');
+            if(name.value.length == 0) {
+                errorName.style.display = 'block';
+                name.classList.add('is-invalid');
+                return false;
+            } else if(errorName.style.display == 'block') {
+                errorName.style.display = 'none';
+                name.classList.remove('is-invalid');
+            }
+
+            let errorSelect = document.getElementById('select-error');
+            if(select.selectedIndex == 0) {
+                errorSelect.style.display = 'block';
+                select.classList.add('is-invalid');
+                return false;
+            } else if(errorSelect.style.display == 'block') {
+                errorSelect.style.display = 'none';
+                select.classList.remove('is-invalid');
+            }
+
+            var isChecked = false;
+            for(let i = 0; i < player.length; i++)
+                if(player[i].checked)
+                    isChecked = true;
+
+            let errorRadio = document.getElementById('radio-error');
+            if(!isChecked) {
+                errorRadio.style.display = 'block';
+                return false;
+            } else if(errorRadio.style.display == 'block') {
+                errorRadio.style.display = 'none';
+            }
+
+
+            return true;
+        }
+
+    </script>
+
+{% endblock %}

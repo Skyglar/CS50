@@ -1,0 +1,141 @@
+--2019-07-26 12:12:46--  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Resolving cdn.cs50.net (cdn.cs50.net)... 13.224.29.60, 13.224.29.85, 13.224.29.10, ...
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 12:21:29--  (try: 2)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 12:30:15--  (try: 3)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 12:39:02--  (try: 4)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 12:47:49--  (try: 5)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 12:56:39--  (try: 6)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:05:28--  (try: 7)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:14:19--  (try: 8)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:23:11--  (try: 9)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:32:02--  (try:10)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:40:56--  (try:11)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:49:48--  (try:12)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 13:58:41--  (try:13)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:07:33--  (try:14)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:16:26--  (try:15)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:25:18--  (try:16)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:34:11--  (try:17)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:43:03--  (try:18)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 14:51:56--  (try:19)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Retrying.
+
+--2019-07-26 15:00:48--  (try:20)  http://cdn.cs50.net/2018/fall/psets/3/resize/less/resize.zip
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.60|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.85|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.10|:80... failed: Connection timed out.
+Connecting to cdn.cs50.net (cdn.cs50.net)|13.224.29.6|:80... failed: Connection timed out.
+Giving up.
+

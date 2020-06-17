@@ -1,0 +1,7 @@
+1. Open file card.raw
+2. find begining of jpeg
+3. open new jpeg 
+4. write 512 bytes until new jpeg is found
+5. detect end of file
+6. close current file stream and open new one
+7. repeat until end of file

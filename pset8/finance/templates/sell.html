@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post" onsubmit="setDateTime()">
+        <div class="form-group">
+            <select name="symbol" class="form-control form-control-sm width">
+                    <option disabled selected>Symbol</option>
+                    {% for symbol in symbols %}
+                        <option value="{{symbol['company_symbol']}}">
+                            {% filter upper %}
+                                {{symbol["company_symbol"]}}
+                            {% endfilter %}
+                        </option>
+                    {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" min="1" name="shares" placeholder="Shares" type="number">
+        </div>
+        <input type="hidden" id="date" name="date" value="">
+        <input type="hidden" id="time" name="time" value="">
+        <button class="btn btn-primary" type="submit">Buy</button>
+    </form>
+
+    <script>
+        function date() {
+            let today = new Date();
+            let dd = String(today.getDate()).padStart(2, '0');
+            let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+            let yyyy = today.getFullYear();
+
+            return yyyy + '-' + mm + '-' + dd;
+        }
+        function time() {
+            let today = new Date();
+            return today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        }
+
+        function setDateTime() {
+            let dateInput = document.getElementById("date");
+            let timeInput = document.getElementById("time");
+            dateInput.value = date();
+            timeInput.value = time();
+        }
+    </script>
+{% endblock %}

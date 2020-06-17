@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+        <table class="table table-striped" style="text-align: left">
+            <thead>
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Shares</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% if transactions %}
+                {% for tran in transactions %}
+                <tr>
+                    <td>
+                        {% filter upper %}
+                            {{ tran["company_symbol"] }}
+                        {% endfilter %}
+                    </td>
+                    <td>{{ tran["company_name"] }}</td>
+                    <td>{{ tran["shares"] }}</td>
+                    <td>{{ tran["price"]|usd }}</td>
+                    <td>{{ tran["total"]|usd }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td colspan="4">CASH</td>
+                    <td>{{ transactions[0]["cash"]|usd }}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4"></th>
+                    <th>{{ total }}</th>
+                </tr>
+            </tfoot>
+            {% else %}
+                <tr>
+                    <td colspan="4">CASH</td>
+                    <td>{{ cash[0]["cash"]|usd }}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4"></th>
+                    <th>{{ cash[0]["cash"]|usd }}</th>
+                </tr>
+            </tfoot>
+            {% endif %}
+        </table>
+{% endblock %}
